@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
+    <nav class="navigation-bar-section">
+
+      <img class="logo-name" src="assets/logo-light.svg">
+      <div class="nav-bar">
+        <h4>ALL BOARDS (1)</h4>
+        <button class="bt-launch">Launch Career</button>
+      </div>
+    </nav>
+    <div class="vertical-line"></div>
+    <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
+    <div>
+      
+      <header>
+        <div class="name-button">
+          <img class="small-display" src="assets/favicon.svg" alt="logo">
+          <h2 class="header-name">Launch Career <span class="dropdown"><select name="mydropdown" id="mydropdown"></select></span></h2>
+          <button class="bt-add-task">+ <span class="large-display">Add New Task</span></button>
+        </div>
+
+      </header>
+
+      <div class="main-container">
+        <div class="horizontal-line"></div>
+        <main>
+          <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
+          <div class="todo-column">
+            <div class="heading">
+              <div class="cycle-blue"></div>
+              <h4>TODO (4)</h4>
+            </div>
+            <!-- Tasks container for TODO -->
+            <div class="to_do_list">
+              <div class="list">Launch Epic Career 🚀</div>
+              <div class="list">Conquer React⚛️</div>
+              <div class="list">Uderstand Databases⚙️</div>
+              <div class="list">Crush Frameworks🖼️</div>
+            </div>
+          </div>
+          <!-- DOING Column -->
+          <div class="doing-column">
+            <div class="heading">
+              <div class="cycle-purple"></div>
+              <h4>DOING (2)</h4>
+            </div>
+            <!-- Tasks container for DOING -->
+            <div class="doing_list">
+              <div class="list">Master JavaScript 💛</div>
+              <div class="list">Never Give Up 🏆</div>
+            </div>
+          </div>
+          <!-- DONE Column -->
+          <div class="done-column">
+            <div class="heading">
+              <div class="cycle-green"></div>
+              <h4>DONE (2)</h4>
+            </div>
+            <!-- Tasks container for DONE -->
+            <div class="done_list">
+              <div class="list">Explore ES6 Features🚀</div>
+              <div class="list">Have Fun🥳</div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
