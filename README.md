@@ -54,6 +54,14 @@ A functional task entry system that ensures accurate data collection, validation
 
   ![status](./explainer-images/no%20completed%20tasks%20log.png)
 
+## Project Setup Instructions
+
+  1. Clone your starter project folder (or create a new repo)
+  2. Build your site using HTML, CSS and JavaScript
+  3. Test it on different screen sizes
+  4. Validate the title inputs
+  4. Use Git to track your progress with frequent commits
+
 ## 🌐 Socials
 
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/RainDrops88)  
