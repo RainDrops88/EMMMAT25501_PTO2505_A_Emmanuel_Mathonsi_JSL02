@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project involves implementing a JavaScript-based task entry system where users can input two tasks with complete details, ensuring data consistency and validation. The system will guide users through entering valid task titles, descriptions, and statuses, enforcing correct formatting while maintaining code clarity and maintainability.
+This project is continuation from Kanban Board UI Implementation. It involves implementing a JavaScript-based task entry system where users can input two tasks with complete details, ensuring data consistency and validation. The system will guide users through entering valid task titles, descriptions, and statuses, enforcing correct formatting while maintaining code clarity and maintainability.
 
 ## Tools
 
@@ -48,8 +48,18 @@ A functional task entry system that ensures accurate data collection, validation
 
 - When there is a completed task:
 
-  ![invalid status](./explainer-images/completed%20task%20log.png)
+  ![status](./explainer-images/completed%20task%20log.png)
 
 - When there are no completed tasks:
 
-  ![invalid status](./explainer-images/no%20completed%20tasks%20log.png)
+  ![status](./explainer-images/no%20completed%20tasks%20log.png)
+
+## 🌐 Socials
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/RainDrops88)  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuel-mathonsi-300b33308/)  
+📧 Email: [07942jerry@gmail.com]
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RainDrops88&theme=default&show_icons=true&hide_border=true&count_private=true)
